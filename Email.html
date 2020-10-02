@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+<pre>
+<script>
+document.write("Email List");
+</script>
+</pre>
+
+<link rel="stylesheet" type="text/css" href="stylesheet.css" /><link rel="stylesheet" type="text/css" href="stylesheet.css" />
+</head>
+
+<p onmouseover="this.style.color = 'navy'" on mouseout="this.style.color='black'">Membership</p>
+
+<div id="errorMsg"></div>
+<form name="myFrm" onsubmit="return validateForm();" action="somepg.html">
+<label>
+  First Name: <input type="text:" name="firstName" id="frirstName"/>
+</label><br/>
+<label>
+Last Name:<input type="text" name="lastName" id="lastName"/> </label>
+<br/>
+<label>
+Vehicle Make:<input type="text" name="make" id"="make"/> </label>
+<br/>
+Email:<input type="text" name="email" id"="email"/> </label><br/>
+<input type="submit"/>
+<script>
+document.getElementById(“result”).innerHTML=”Your form has been submitted successfully!”;
+</script>
+</form>
+</script>
